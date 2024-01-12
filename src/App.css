@@ -65,3 +65,8 @@ background-color: rgb(2, 15, 26);
 body{
   background-color: rgb(56, 66, 37);
 }
+.state-button{
+  padding: 4px;
+border-radius: 9px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

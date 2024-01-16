@@ -9,6 +9,9 @@ import State from "./components/State.jsx";
 import ChangeHook from "./components/ChangeHook.jsx";
 import ChangeNum from "./components/ChangeNum.jsx";
 import ChangeComment from "./components/ChangeComment.jsx";
+import ChangeOption from "./components/ChangeOption.jsx";
+import Form from './Form.jsx'
+import ChangeCheck from "./components/ChangeCheck.jsx";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     {/* <App /> */}
@@ -16,7 +19,10 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 {/* <State /> */}
 {/* <ChangeHook/> */}
 {/* <ChangeNum/> */}
-<ChangeComment/>
+{/* <ChangeComment/> */}
+{/* <ChangeOption/> */}
+<Form/>
+<ChangeCheck/>
     {/* <List /> */}
   </React.StrictMode>
 );

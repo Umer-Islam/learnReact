@@ -3,7 +3,7 @@ import React, { useState } from "react";
 export default function ChangeNum() {
   const [quantity, setQuantity] = useState(1);
   function handleChange(event) {
-    if (quantity >= 1) {
+    if (quantity >=1 ) {
       setQuantity(event.target.value);
     }
   }

@@ -87,3 +87,6 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   
 }
+input select option {
+  border-radius: 15px;
+}

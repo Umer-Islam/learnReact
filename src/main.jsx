@@ -8,13 +8,15 @@ import List  from "./components/List.jsx";
 import State from "./components/State.jsx";
 import ChangeHook from "./components/ChangeHook.jsx";
 import ChangeNum from "./components/ChangeNum.jsx";
+import ChangeComment from "./components/ChangeComment.jsx";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     {/* <App /> */}
 {/* <ClickEvent /> */}
 {/* <State /> */}
 {/* <ChangeHook/> */}
-<ChangeNum/>
+{/* <ChangeNum/> */}
+<ChangeComment/>
     {/* <List /> */}
   </React.StrictMode>
 );

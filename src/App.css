@@ -4,7 +4,12 @@
   padding: 2rem;
   text-align: center;
 }
-
+.textBox{
+  width: 80%;
+}
+p{
+  color: white;
+}
 .logo {
   height: 6em;
   padding: 1.5em;

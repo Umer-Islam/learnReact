@@ -4,6 +4,7 @@ import React from 'react'
 import ChangeNum from "./components/ChangeNum";
 import ChangeOption from "./components/ChangeOption";
 import ChangeComment from "./components/ChangeComment";
+import ChangeCheck from "./components/ChangeCheck";
 
 export default function Form() {
   return (
@@ -13,6 +14,7 @@ export default function Form() {
 <ChangeNum/>
 <ChangeOption/>
 <ChangeComment/>
+<ChangeCheck/>
 
 
 

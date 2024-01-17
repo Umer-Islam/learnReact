@@ -7,8 +7,8 @@ export default function ChangeHook() {
         setText(event.target.value)
     }
   return (<>
-  <input className='input-text' type="text" value = {text} onChange={handleChange}/>
-  <h3 className='changehook'> {text}</h3>
+  <input className='input-text' type="text" value = {text} onChange={handleChange} placeholder='add text'/>
+  <h6 className='changehook'>Your text: {text}</h6>
   
   </>
   )

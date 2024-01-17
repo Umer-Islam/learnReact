@@ -4,7 +4,12 @@
   padding: 2rem;
   text-align: center;
 }
-
+.textBox{
+  width: 80%;
+}
+p{
+  color: white;
+}
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -39,4 +44,49 @@
 
 .read-the-docs {
   color: #888;
+}
+.category {
+  font-size: 2.6em;
+  font-weight: bold;
+  color: rgb(229, 129, 192);
+  margin-bottom: 10px;
+  text-align: center;
+  border: 3px solid;
+  border-radius: 5px;
+  background-color: rgb(2, 15, 26);
+}
+.items {
+  color: white;
+  list-style: none;
+  font-size: 2em;
+  text-align: center;
+  margin: 0px;
+}
+.items li:hover {
+  color: aqua;
+  cursor: pointer;
+}
+body {
+  background-color: rgb(56, 66, 37);
+}
+.state-button {
+  padding: 4px;
+  border-radius: 9px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.changehook {
+  color: yellow;
+  font-size: 2em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+}
+.input-text {
+  padding: 9px;
+  width: 90%;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+input select option {
+  border-radius: 15px;
 }

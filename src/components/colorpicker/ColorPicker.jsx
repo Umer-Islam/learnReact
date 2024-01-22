@@ -2,7 +2,9 @@ import { useState } from "react"
 
 useState
 export default function ColorPicker() {
-const[color,setColor]= useState('#FFFFFF')
+const[color,setColor]= useState('#d33636
+
+')
 function handleColorChange (e){
     setColor(e.target.value)
 

@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 import "./index.css";
+import ObjectState from "./components/ObjectState.jsx";
 import'./App.css'
 import ColorPicker from "./components/colorpicker/ColorPicker.jsx";
 ReactDOM.createRoot(document.getElementById("root")).render(
@@ -14,7 +15,8 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 {/* <ChangeComment/> */}
 {/* <ChangeOption/> */}
 {/* <Form/> */}
-<ColorPicker/>
+{/* <ColorPicker/> */}
+<ObjectState />
 {/* <ChangeCheck/> */}
     {/* <List /> */}
   </React.StrictMode>

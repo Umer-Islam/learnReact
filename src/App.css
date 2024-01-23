@@ -1,9 +1,9 @@
-#root {
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-}
+} */
 .textBox{
   width: 80%;
 }
@@ -89,4 +89,15 @@ body {
 }
 input select option {
   border-radius: 15px;
+}
+
+.list-item:hover{
+  background-color: red;
+}
+
+.remove{
+  font-family: 'Courier New', Courier, monospace;
+  font-style: italic;
+  color: rgb(192, 41, 192);
+  font-weight: bolder;
 }
